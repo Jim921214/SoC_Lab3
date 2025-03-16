@@ -1,0 +1,114 @@
+#-----------------------------------------------------------
+# xsim v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Mar 16 08:01:10 2025
+# Process ID: 10545
+# Current directory: /home/ubuntu/soc_lab/FIR/fir
+# Command line: xsim -mode tcl -source {xsim.dir/tb_elab/xsim_script.tcl}
+# Log file: /home/ubuntu/soc_lab/FIR/fir/xsim.log
+# Journal file: /home/ubuntu/soc_lab/FIR/fir/xsim.jou
+# Running On: ubuntu2004, OS: Linux, CPU Frequency: 2687.998 MHz, CPU Physical cores: 2, Host memory: 10425 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_elab/xsim_script.tcl
+# xsim {tb_elab} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+------------Start simulation-----------
+----Start the data input(AXI-Stream)----
+----Start the coefficient input(AXI-lite)----
+ Check Coefficient ...
+OK: exp =           2, rdata =           2
+OK: exp =          -5, rdata =          -5
+OK: exp =          -3, rdata =          -3
+OK: exp =           3, rdata =           3
+OK: exp =           7, rdata =           7
+OK: exp =           1, rdata =           1
+OK: exp =          -3, rdata =          -3
+OK: exp =         -10, rdata =         -10
+OK: exp =           4, rdata =           4
+OK: exp =           7, rdata =           7
+OK: exp =          -5, rdata =          -5
+OK: exp =          -4, rdata =          -4
+OK: exp =          -1, rdata =          -1
+OK: exp =           8, rdata =           8
+OK: exp =          -9, rdata =          -9
+OK: exp =           7, rdata =           7
+OK: exp =         -10, rdata =         -10
+OK: exp =          -1, rdata =          -1
+OK: exp =          -9, rdata =          -9
+OK: exp =          -3, rdata =          -3
+OK: exp =           2, rdata =           2
+OK: exp =          -7, rdata =          -7
+OK: exp =           0, rdata =           0
+OK: exp =          10, rdata =          10
+OK: exp =          10, rdata =          10
+OK: exp =          -2, rdata =          -2
+OK: exp =          -8, rdata =          -8
+OK: exp =          -4, rdata =          -4
+OK: exp =          -9, rdata =          -9
+OK: exp =          -1, rdata =          -1
+OK: exp =          -1, rdata =          -1
+OK: exp =           5, rdata =           5
+ Tape programming done ...
+ Start FIR
+----End the coefficient input(AXI-lite)----
+[PASS] [Pattern          0] Golden answer:       22492, Your answer:       22492
+[PASS] [Pattern          1] Golden answer:       97596, Your answer:       97596
+[PASS] [Pattern          2] Golden answer:     -495153, Your answer:     -495153
+[PASS] [Pattern          3] Golden answer:       24030, Your answer:       24030
+[PASS] [Pattern          4] Golden answer:      448427, Your answer:      448427
+[PASS] [Pattern          5] Golden answer:      175345, Your answer:      175345
+[PASS] [Pattern          6] Golden answer:     -442783, Your answer:     -442783
+[PASS] [Pattern          7] Golden answer:     -108085, Your answer:     -108085
+[PASS] [Pattern          8] Golden answer:       13204, Your answer:       13204
+[PASS] [Pattern          9] Golden answer:     1088187, Your answer:     1088187
+[PASS] [Pattern         10] Golden answer:     -412950, Your answer:     -412950
+[PASS] [Pattern         11] Golden answer:    -1952133, Your answer:    -1952133
+[PASS] [Pattern         12] Golden answer:      427787, Your answer:      427787
+[PASS] [Pattern         13] Golden answer:     1308000, Your answer:     1308000
+[PASS] [Pattern         14] Golden answer:      412264, Your answer:      412264
+[PASS] [Pattern         15] Golden answer:    -1886135, Your answer:    -1886135
+[PASS] [Pattern         16] Golden answer:      858976, Your answer:      858976
+[PASS] [Pattern         17] Golden answer:      -49402, Your answer:      -49402
+[PASS] [Pattern         18] Golden answer:      824029, Your answer:      824029
+[PASS] [Pattern         19] Golden answer:    -2062547, Your answer:    -2062547
+[PASS] [Pattern         20] Golden answer:     -859278, Your answer:     -859278
+[PASS] [Pattern         21] Golden answer:      194332, Your answer:      194332
+[PASS] [Pattern         22] Golden answer:      197437, Your answer:      197437
+[PASS] [Pattern         23] Golden answer:     -119301, Your answer:     -119301
+[PASS] [Pattern         24] Golden answer:      344897, Your answer:      344897
+[PASS] [Pattern         25] Golden answer:     1328711, Your answer:     1328711
+[PASS] [Pattern         26] Golden answer:     -494929, Your answer:     -494929
+[PASS] [Pattern         27] Golden answer:      -20213, Your answer:      -20213
+[PASS] [Pattern         28] Golden answer:       50261, Your answer:       50261
+[PASS] [Pattern         29] Golden answer:     -409098, Your answer:     -409098
+[PASS] [Pattern         30] Golden answer:    -3175097, Your answer:    -3175097
+[PASS] [Pattern         31] Golden answer:      489835, Your answer:      489835
+[PASS] [Pattern         32] Golden answer:     3327177, Your answer:     3327177
+[PASS] [Pattern         33] Golden answer:     1862944, Your answer:     1862944
+[PASS] [Pattern         34] Golden answer:    -2283750, Your answer:    -2283750
+[PASS] [Pattern         35] Golden answer:     1734823, Your answer:     1734823
+[PASS] [Pattern         36] Golden answer:      871867, Your answer:      871867
+[PASS] [Pattern         37] Golden answer:      805316, Your answer:      805316
+[PASS] [Pattern         38] Golden answer:    -1830094, Your answer:    -1830094
+[PASS] [Pattern         39] Golden answer:      777612, Your answer:      777612
+[PASS] [Pattern         40] Golden answer:     -854044, Your answer:     -854044
+[PASS] [Pattern         41] Golden answer:    -2109553, Your answer:    -2109553
+[PASS] [Pattern         42] Golden answer:     -404970, Your answer:     -404970
+[PASS] [Pattern         43] Golden answer:     1874249, Your answer:     1874249
+[PASS] [Pattern         44] Golden answer:    -1024009, Your answer:    -1024009
+[PASS] [Pattern         45] Golden answer:     -936329, Your answer:     -936329
+[PASS] [Pattern         46] Golden answer:      476892, Your answer:      476892
+[PASS] [Pattern         47] Golden answer:     -719901, Your answer:     -719901
+OK: exp =           0, rdata =           0
+------End the data input(AXI-Stream)------
+[PASS] [Pattern         48] Golden answer:     -521096, Your answer:     -521096
+[PASS] [Pattern         49] Golden answer:      -35336, Your answer:      -35336
+OK: exp =           2, rdata =           2
+OK: exp =           4, rdata =           4
+---------------------------------------------
+-----------Congratulations! Pass-------------
+$finish called at time : 19925 ns : File "/home/ubuntu/soc_lab/FIR/fir/tb/tb.v" Line 211
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Mar 16 08:01:18 2025...
