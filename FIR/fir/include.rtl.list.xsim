@@ -1,0 +1,4 @@
+# design sources
+./rtl/fir.v
+./rtl/bram32.v
+./tb/tb.v
